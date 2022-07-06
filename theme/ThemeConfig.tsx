@@ -5,6 +5,8 @@ import {
   StyledEngineProvider,
   ThemeProvider,
 } from "@mui/material/styles";
+import { TypographyOptions } from "@mui/material/styles/createTypography";
+import ThemeTypography from "./ThemeTypography";
 
 // ----------------------------------------------------------------------
 
@@ -16,18 +18,28 @@ type ThemeConfigType = {
 
 export const themeOptions: ThemeOptions = {
   palette: {
-    mode: "dark",
+    mode: "light",
     primary: {
       main: "#5893df",
     },
     secondary: {
-      main: "#2ec5d3",
+      main: "#ccc",
     },
     background: {
-      default: "#192231",
-      paper: "#24344d",
+      // default: "#192231",
+      // paper: "#24344d",
     },
   },
+  components: {
+    MuiToolbar: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#ebebeb",
+        },
+      },
+    },
+  },
+  typography: ThemeTypography as TypographyOptions,
 };
 
 // export const themeOptions: ThemeOptions = {

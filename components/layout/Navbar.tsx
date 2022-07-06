@@ -1,18 +1,11 @@
-import { Icon } from "@iconify/react";
-import {
-  Drawer,
-  Grid,
-  IconButton,
-  ListItemText,
-  MenuItem,
-  MenuList,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Drawer, Grid, ListItemText, MenuItem, MenuList } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
+import Image from "next/image";
 import Link from "next/link";
+import LogoImg from "@public/img/logo-fina.png";
 import { useState } from "react";
+import styled from "@emotion/styled";
 
 export default function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -21,21 +14,9 @@ export default function Navbar() {
     <header>
       <AppBar position="static" elevation={0}>
         <Toolbar>
-          <Grid container alignItems={"center"} justifyContent="space-between">
+          <Grid container alignItems={"center"} justifyContent="center">
             <Grid item>
-              <Stack direction="row" alignItems={"center"}>
-                <IconButton
-                  size="large"
-                  edge="start"
-                  color="inherit"
-                  aria-label="menu"
-                  sx={{ mr: 2 }}
-                  onClick={() => setSidebarOpen(!sidebarOpen)}
-                >
-                  <Icon icon={"mdi:menu"} />
-                </IconButton>
-                <Typography variant="h5">{/* {AppConfig.titulo} */}</Typography>
-              </Stack>
+              <Image src={LogoImg} width={80} height={40} alt="Logo" />
             </Grid>
           </Grid>
         </Toolbar>
@@ -46,18 +27,6 @@ export default function Navbar() {
             <MenuItem color="inherit">
               <ListItemText>Home</ListItemText>
             </MenuItem>
-          </Link>
-          <Link href={"/integra"} passHref>
-            <MenuItem color="inherit">Íntegra</MenuItem>
-          </Link>
-          <Link href={"/documento"} passHref>
-            <MenuItem color="inherit">Formulário</MenuItem>
-          </Link>
-          <Link href={"/acoes"} passHref>
-            <MenuItem color="inherit">Ações</MenuItem>
-          </Link>
-          <Link href={"/prever-grupo"} passHref>
-            <MenuItem color="inherit">Prever Grupos temáticos</MenuItem>
           </Link>
         </MenuList>
       </Drawer>
