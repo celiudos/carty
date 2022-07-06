@@ -1,0 +1,3 @@
+interface IUsuario {
+  idUsuario: number;
+}
