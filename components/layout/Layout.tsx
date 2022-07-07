@@ -1,6 +1,6 @@
 import Navbar from "@components/layout/Navbar";
 import styled from "@emotion/styled";
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
 
 type Props = {
   children: JSX.Element;
@@ -9,25 +9,33 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <MainCss>
-      <Navbar />
-      <CorpoCss>
-        <Box p={2}>{children}</Box>
-      </CorpoCss>
+      <HeaderCss>
+        <Container maxWidth="lg" id="header">
+          <Navbar />
+        </Container>
+      </HeaderCss>
+      <Container maxWidth="lg" id="content">
+        <CorpoCss>
+          <Box p={2}>{children}</Box>
+        </CorpoCss>
+      </Container>
     </MainCss>
   );
 }
 
-const MainCss = styled.div`
+const MainCss = styled.main`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: space-between;
-  /* background: #ececec; */
+  justify-content: flex-start;
+`;
+
+const HeaderCss = styled.header`
+  background: #fff;
 `;
 
 const CorpoCss = styled.div`
   flex: 1;
-  /* margin: 70px 0; */
 
   @media only screen and (max-width: 900px) {
     margin: 20px 0;

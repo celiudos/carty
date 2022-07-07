@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { Icon } from "@iconify/react";
 import { Badge, Button, ButtonProps, Stack } from "@mui/material";
 
-export default function SquaredBtn({
+export default function SquareBtn({
   badgeCount = 0,
   children,
   ...props

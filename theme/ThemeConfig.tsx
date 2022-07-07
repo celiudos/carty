@@ -26,7 +26,7 @@ export const themeOptions: ThemeOptions = {
       main: "#ccc",
     },
     background: {
-      // default: "#192231",
+      default: "#fcfcfc",
       // paper: "#24344d",
     },
   },
@@ -34,7 +34,14 @@ export const themeOptions: ThemeOptions = {
     MuiToolbar: {
       styleOverrides: {
         root: {
-          backgroundColor: "#ebebeb",
+          backgroundColor: "#FFF",
+        },
+      },
+    },
+    MuiCardActions: {
+      styleOverrides: {
+        root: {
+          borderTop: "1px dashed #E2E2E2",
         },
       },
     },

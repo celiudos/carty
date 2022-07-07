@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Saias",
+    "products": [
+      { "title": "Azul tipo 2", "src": "/img/mock/categoria-img-1.jpg" },
+      { "title": "Vermelho claro", "src": "/img/mock/categoria-img-2.jpg" }
+    ]
+  },
+  {
+    "title": "Macacão",
+    "products": [
+      { "title": "Fino ajustasdo", "src": "/img/mock/categoria-img-3.jpg" }
+    ]
+  },
+  {
+    "title": "Blusas",
+    "products": [{ "title": "Marykay", "src": "/img/mock/categoria-img-4.jpg" }]
+  },
+  {
+    "title": "Vestidos",
+    "products": [
+      { "title": "Rosa pink", "src": "/img/mock/categoria-img-3.jpg" },
+      { "title": "Azul GG e MM", "src": "/img/mock/categoria-img-1.jpg" }
+    ]
+  }
+]

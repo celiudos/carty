@@ -1,7 +1,9 @@
+import ButtonLinkNext from "@components/buttons/ButtonLinkNext";
+import WidgetChart from "@components/charts/WidgetChart";
 import Layout from "@components/layout/Layout";
-import SquaredBtn from "@components/SquaredBtn";
+import SquareBtn from "@components/SquareBtn";
 import { Icon } from "@iconify/react";
-import { Box, CardContent } from "@mui/material";
+import { Avatar, Box, CardActions, CardContent } from "@mui/material";
 import { CardHeader } from "@mui/material";
 import {
   Card,
@@ -12,115 +14,89 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import ImgExemplo from "@public/img/img-example-1.jpg";
+import ImgExemplo from "@public/img/mock/img-example-1.jpg";
 import Image from "next/image";
 
 export default function Index() {
   return (
     <Layout>
-      <Container maxWidth="sm">
-        <Grid container justifyContent={"center"} spacing={2}>
-          <Grid item>
-            <Stack direction="row" spacing={3}>
-              <Stack>
-                <Typography variant="h1">Minha Loja Virtual</Typography>
-                <Link href="">
-                  <Typography>mystore.carty.com.br</Typography>
-                </Link>
-              </Stack>
-              <Stack justifyContent={"center"}>
-                <Image
-                  src={ImgExemplo}
-                  width={60}
-                  height={60}
-                  alt="Imagem Exemplo"
-                />
-              </Stack>
-            </Stack>
-          </Grid>
-        </Grid>
-        <Grid container justifyContent={"space-between"} spacing={2} mt={3}>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"bi:box"} height="40" />
-              <div>Lista de Produtos</div>
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"bx:store-alt"} height="40" />
-              <div>Visualizar Minha Loja</div>
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"akar-icons:arrow-shuffle"} height="40" />
-              <div>Minhas Categorias</div>
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn badgeCount={241}>
-              <Icon icon={"bi:bag-check"} height="40" />
-              <div>Meus Pedidos</div>
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"ant-design:share-alt-outlined"} height="40" />
-              <div>Divulgação da Loja</div>
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"icon-park-outline:config"} height="40" />
-              <div>Configurar Minha Loja</div>
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"akar-icons:shipping-box-v2"} height="40" />
-              <div>Controle de Estoque</div>
-              <Chip label="PREMIUM" />
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"bi:truck"} height="40" />
-              <div>Formas de Entrega</div>
-              <Chip label="PREMIUM" />
-            </SquaredBtn>
-          </Grid>
-          <Grid item>
-            <SquaredBtn>
-              <Icon icon={"akar-icons:star"} height="40" />
-              <div>Avaliação dos Clientes</div>
-              <Chip label="PREMIUM" />
-            </SquaredBtn>
-          </Grid>
-        </Grid>
-        <Grid container justifyContent={"center"} spacing={2} mt={3}>
-          <Grid item>
-            <Card sx={{ maxWidth: 400 }}>
+      <Grid container spacing={2}>
+        <Grid container item lg={4} alignContent="flex-start" spacing={2}>
+          <Grid item xs={12}>
+            <Card>
               <CardHeader
-                avatar={<Icon icon="arcticons:mercado-libre" fontSize={42} />}
-                title="Pagamento na loja"
+                avatar={
+                  <Avatar alt="Remy Sharp">
+                    <Image
+                      src={ImgExemplo}
+                      width={60}
+                      height={60}
+                      alt="Imagem Exemplo"
+                    />
+                  </Avatar>
+                }
+                title="Minha Loja"
+                subheader="Veja como ficou seu estabelecimento virtual"
                 titleTypographyProps={{
                   variant: "h3",
                 }}
               />
+              <CardActions>
+                <ButtonLinkNext href="https://mystore.carty.com.br">
+                  <Typography>Acessar</Typography>
+                </ButtonLinkNext>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12}>
+            <Card>
+              <CardHeader
+                avatar={<Icon icon="arcticons:mercado-libre" fontSize={42} />}
+                title="Pagamento na loja"
+                subheader="Integre agora com o Mercado Pago para receber pagamentos dos
+                seus clientes na sua loja"
+                titleTypographyProps={{
+                  variant: "h3",
+                }}
+              />
+              <CardContent sx={{ paddingTop: 0, textAlign: "center" }}>
+                <Chip label="PRO" />
+              </CardContent>
+              <CardActions>
+                <ButtonLinkNext href="https://mystore.carty.com.br">
+                  <Typography>Virar PRO</Typography>
+                </ButtonLinkNext>
+              </CardActions>
+            </Card>
+          </Grid>
+        </Grid>
+        <Grid container item lg={8} spacing={2}>
+          <Grid item xs={12}>
+            <Card>
+              <CardHeader
+                avatar={<Icon icon="bx:line-chart" fontSize={42} />}
+                title="Visitas de Clientes"
+                subheader="Divulgue o endereço da sua loja virtual e aumente as vendas"
+              />
               <CardContent>
-                <Typography variant="body1" color="text.secondary">
-                  Integre agora com o Mercado Pago para receber pagamentos dos
-                  seus clientes na sua loja.
-                </Typography>
-                <Stack justifyContent={"center"} alignItems="center" mt={2}>
-                  <Chip label="PRO" />
-                </Stack>
+                <WidgetChart />
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12}>
+            <Card>
+              <CardHeader
+                avatar={<Icon icon="bx:line-chart" fontSize={42} />}
+                title="Vendas"
+                subheader="Capricha no mkt e bóra bóra!"
+              />
+              <CardContent>
+                <WidgetChart />
               </CardContent>
             </Card>
           </Grid>
         </Grid>
-      </Container>
+      </Grid>
     </Layout>
   );
 }
