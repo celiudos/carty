@@ -8,7 +8,8 @@ Criar apenas telas mockadas
 
 ### ✨ FEATURE (feat)
 
-1.  feat:
+1.  criar template inicial
+1.  integrar com ferramenta de upload https://demo.cloudinary.com/uw/#/
 
 ### 🚧 REFATORAR (refactor)
 

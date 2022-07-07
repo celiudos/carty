@@ -51,8 +51,8 @@
     "@babel/plugin-syntax-jsx": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.14.5",
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
     "@emotion/babel-plugin": "^11.7.2",
     "@iconify/icons-mdi": "^1.2.7",
     "@iconify/react": "^3.2.1",
@@ -70,7 +70,6 @@
     "babel-plugin-inline-react-svg": "^2.0.1",
     "babel-plugin-typescript-to-proptypes": "^1.4.2",
     "commitizen": "^4.2.4",
-    "puppeteer": "^13.5.2",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.0.1",
@@ -78,9 +77,10 @@
     "eslint-config-next": "11.0.1",
     "express": "^4.17.3",
     "http-proxy": "^1.18.1",
-    "husky": "^7.0.1",
+    "husky": "^7.0.4",
     "jest": "^26.6.3",
     "nodemon": "^2.0.15",
+    "puppeteer": "^13.5.2",
     "standard-version": "^9.3.1",
     "typescript": "^4.5.5"
   },
@@ -93,16 +93,11 @@
     ],
     "moduleNameMapper": {
       "^@api/(.*)": "<rootDir>/api/$1",
-      "^@iadou/(.*)": "<rootDir>/iadou-libs/$1",
       "^@components/(.*)": "<rootDir>/components/$1",
       "^@styles/(.*)": "<rootDir>/styles/$1",
       "^@public/(.*)": "<rootDir>/public/$1",
-      "^@database/(.*)": "<rootDir>/database/$1",
       "^@theme/(.*)": "<rootDir>/theme/$1",
-      "^@lib/(.*)": "<rootDir>/lib/$1",
-      "^@mock/(.*)": "<rootDir>/mock/$1",
-      "^@utils/(.*)": "<rootDir>/utils/$1",
-      "^@store/(.*)": "<rootDir>/store/$1"
+      "^@utils/(.*)": "<rootDir>/utils/$1"
     }
   }
 }
