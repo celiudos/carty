@@ -4,6 +4,13 @@
 
 App carty como site web
 
+## Links úteis
+
+[Ícones](https://icon-sets.iconify.design/)
+[Material UI](https://mui.com/material-ui)
+[Template](https://inst-redq.vercel.app/)
+[Charts](https://apexcharts.com/docs)
+
 # Instalar
 
     npm install
@@ -17,7 +24,13 @@ App carty como site web
     Os commits são travados e seguem um padrão de commits.
     Vide o arquivo [COMMITS_PADRONIZADOS.md](COMMITS_PADRONIZADOS.md)
 
-# Recomendação de extensões para o VSCODE
+# Recomendação de Dev
+
+## Key binds para VSCODE
+
+[Fonte](https://stackoverflow.com/questions/52926371/vscode-typescript-add-all-missing-imports-shortcut)
+
+## Extensões para o VSCODE
 
 [Fonte](https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list)
 
