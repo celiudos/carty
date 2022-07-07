@@ -12,6 +12,11 @@ App carty como site web
 
     npm run dev
 
+# Commitar
+
+    Os commits são travados e seguem um padrão de commits.
+    Vide o arquivo [COMMITS_PADRONIZADOS.md](COMMITS_PADRONIZADOS.md)
+
 # Recomendação de extensões para o VSCODE
 
 [Fonte](https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list)

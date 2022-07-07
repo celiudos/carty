@@ -1,7 +1,5 @@
 # Roadmap
 
-Utilizar sempre commits padronizados. Vide o arquivo [COMMITS_PADRONIZADOS.md](COMMITS_PADRONIZADOS.md)
-
 ## Fase 1
 
 Criar apenas telas mockadas
