@@ -6,10 +6,10 @@ App carty como site web
 
 ## Links úteis
 
-[Ícones](https://icon-sets.iconify.design/)
-[Material UI](https://mui.com/material-ui)
-[Template](https://inst-redq.vercel.app/)
-[Charts](https://apexcharts.com/docs)
+- Ícones: [icon-sets](https://icon-sets.iconify.design/)
+- Components: [Material UI](https://mui.com/material-ui)
+- Template base: [inst-redq](https://inst-redq.vercel.app/)
+- Gráficos: [Charts](https://apexcharts.com/docs)
 
 # Instalar
 
