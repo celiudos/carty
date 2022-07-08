@@ -1,7 +1,6 @@
 import ButtonLinkNext from "@components/buttons/ButtonLinkNext";
 import WidgetChart from "@components/charts/WidgetChart";
 import Layout from "@components/layout/Layout";
-import SquareBtn from "@components/SquareBtn";
 import { Icon } from "@iconify/react";
 import {
   Avatar,

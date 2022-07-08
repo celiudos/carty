@@ -6,6 +6,7 @@ import {
   ThemeProvider,
 } from "@mui/material/styles";
 import { TypographyOptions } from "@mui/material/styles/createTypography";
+
 import ThemeTypography from "./ThemeTypography";
 
 // ----------------------------------------------------------------------
@@ -31,6 +32,18 @@ export const themeOptions: ThemeOptions = {
     },
   },
   components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#000",
+          padding: "14px 16px",
+          borderRadius: 0,
+          "&:hover": {
+            backgroundColor: "#000000b3",
+          },
+        },
+      },
+    },
     MuiToolbar: {
       styleOverrides: {
         root: {
@@ -42,6 +55,18 @@ export const themeOptions: ThemeOptions = {
       styleOverrides: {
         root: {
           borderTop: "1px dashed #E2E2E2",
+        },
+      },
+    },
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#eee",
+          borderColor: "#eee",
+          borderRadius: 0,
+        },
+        notchedOutline: {
+          borderColor: "#eee",
         },
       },
     },

@@ -1,18 +1,9 @@
-import {
-  Select,
-  MenuItem,
-  Input,
-  Grid,
-  Rating,
-  Typography,
-  TextField,
-  FormControl,
-  InputLabel,
-  OutlinedInput,
-} from "@mui/material";
+import { Button, Grid, Rating, Typography } from "@mui/material";
 import React, { useEffect } from "react";
-import { useForm, Controller, SubmitHandler } from "react-hook-form";
-import MuiDate from "./MuiDate";
+import { SubmitHandler, useForm } from "react-hook-form";
+
+import MuiDate from "./fields/MuiDate";
+import MuiTextfield from "./fields/MuiTextfield";
 
 const defaultValues = {
   select: "",
@@ -46,7 +37,10 @@ export default function FormAvaliacao() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <Grid container>
+      <Grid container spacing={2}>
+        <Grid item xs={12}>
+          <Typography variant="h2">Avaliação</Typography>
+        </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" component="legend">
             Avalie a sua experiência
@@ -57,32 +51,35 @@ export default function FormAvaliacao() {
           <Typography variant="h5" component="legend">
             Título da avaliação
           </Typography>
-          <TextField
-            id="outlined-basic"
-            variant="outlined"
-            inputProps={{ ...register("input") }}
+          <MuiTextfield
+            inputProps={{
+              placeholder: "Achei uma maravilha!",
+              ...register("input"),
+            }}
+          />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" component="legend">
+            Descrição
+          </Typography>
+          <MuiTextfield
+            multiline
+            minRows={4}
+            inputProps={{
+              placeholder: "Vou deixar aqui algumas observações...",
+              ...register("input3"),
+            }}
           />
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" component="legend">
             Nome do usuário
           </Typography>
-          <TextField
-            id="outlined-basic"
-            variant="outlined"
-            inputProps={{ ...register("input2") }}
-          />
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" component="legend">
-            Avaliação
-          </Typography>
-          <TextField
-            fullWidth
-            id="outlined-basic2"
-            variant="outlined"
-            multiline
-            maxRows={4}
+          <MuiTextfield
+            inputProps={{
+              placeholder: "João Alberto",
+              ...register("input2"),
+            }}
           />
         </Grid>
         <Grid item xs={12}>
@@ -91,16 +88,18 @@ export default function FormAvaliacao() {
           </Typography>
           <MuiDate
             textFieldParams={{
-              label: "",
-              inputProps: { ...register("input4") },
+              inputProps: {
+                ...register("input4"),
+              },
             }}
           />
         </Grid>
+        <Grid item xs={12}>
+          <Button variant="contained" type="submit">
+            Salvar
+          </Button>
+        </Grid>
       </Grid>
-      <button type="button" onClick={() => reset({ ...defaultValues })}>
-        Reset
-      </button>
-      <input type="submit" />
     </form>
   );
 }
