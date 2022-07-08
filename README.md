@@ -10,6 +10,7 @@ App carty como site web
 - Components: [Material UI](https://mui.com/material-ui)
 - Template base: [inst-redq](https://inst-redq.vercel.app/)
 - Gráficos: [Charts](https://apexcharts.com/docs)
+- Forms: [react-hook-form](https://github.com/react-hook-form/react-hook-form)
 
 O Thiago falou comigo sobre esse último ajuste:
 "ó mudaria 2 coisas: moveria 2 itens do menu para o canto superior direito ( ao lado do perfil )
