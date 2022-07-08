@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Product 1",
+    "img": "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172308/eva%40carty.com.br/lmg8zzgc1unjfs2h3hzi.jpg",
+    "featured": true,
+    "price": 59.99,
+    "promoPrice": 49.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "category": "621fd95250bc5f00230cd19f",
+    "images": [
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172308/eva%40carty.com.br/lmg8zzgc1unjfs2h3hzi.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172308/eva%40carty.com.br/lmg8zzgc1unjfs2h3hzi.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172308/eva%40carty.com.br/lmg8zzgc1unjfs2h3hzi.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172308/eva%40carty.com.br/lmg8zzgc1unjfs2h3hzi.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172308/eva%40carty.com.br/lmg8zzgc1unjfs2h3hzi.jpg"
+    ],
+    "createdAt": "2021-09-21T15:29:08.223+00:00",
+    "quantity": 1,
+    "height": 1,
+    "length": 1,
+    "weight": 1,
+    "width": 1,
+    "order": 1
+  },
+  {
+    "id": "2",
+    "name": "Product 2",
+    "img": "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172371/eva%40carty.com.br/vcqfh8aroht9asz2jrog.jpg",
+    "featured": true,
+    "price": 59.99,
+    "promoPrice": 49.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "category": "621fd95250bc5f00230cd19f",
+    "images": [
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172371/eva%40carty.com.br/vcqfh8aroht9asz2jrog.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172371/eva%40carty.com.br/vcqfh8aroht9asz2jrog.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172371/eva%40carty.com.br/vcqfh8aroht9asz2jrog.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172371/eva%40carty.com.br/vcqfh8aroht9asz2jrog.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616172371/eva%40carty.com.br/vcqfh8aroht9asz2jrog.jpg"
+    ],
+    "createdAt": "2021-09-21T15:29:08.223+00:00",
+    "quantity": 1,
+    "height": 1,
+    "length": 1,
+    "weight": 1,
+    "width": 1,
+    "order": 2
+  },
+  {
+    "id": "3",
+    "name": "Product 3",
+    "img": "https://res.cloudinary.com/rockedevelopr/image/upload/v1616176900/eva%40carty.com.br/l2wrprztqpblwoutbiek.jpg",
+    "featured": true,
+    "price": 59.99,
+    "promoPrice": 49.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "category": "621fd95250bc5f00230cd19f",
+    "images": [
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616176900/eva%40carty.com.br/l2wrprztqpblwoutbiek.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616176900/eva%40carty.com.br/l2wrprztqpblwoutbiek.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616176900/eva%40carty.com.br/l2wrprztqpblwoutbiek.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616176900/eva%40carty.com.br/l2wrprztqpblwoutbiek.jpg",
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616176900/eva%40carty.com.br/l2wrprztqpblwoutbiek.jpg"
+    ],
+    "createdAt": "2021-09-21T15:29:08.223+00:00",
+    "quantity": 1,
+    "height": 1,
+    "length": 1,
+    "weight": 1,
+    "width": 1,
+    "order": 3
+  }
+]

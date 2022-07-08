@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "60f85192bc14e600240eab83",
+    "status": true,
+    "variation": true,
+    "models": [],
+    "variations": [],
+    "featured": false,
+    "name": "Vestido hera",
+    "description": "",
+    "price": null,
+    "promoPrice": 179.99,
+    "business": "6054d3cbcc22f000244cd0ff",
+    "parent": "6054ed28cc22f000244cd17f",
+    "variationsValues": "[{variationModel:'60f85192bc14e600240eab81',variationValue:'P'}]",
+    "quantity": 4,
+    "width": 20,
+    "height": 5,
+    "length": 20,
+    "weight": 1000,
+    "createdAt": "2021-07-21T16:55:46.749+00:00",
+    "category": null,
+    "order": null,
+    "video": "https://res.cloudinary.com/rockedevelopr/video/upload/v1636208546/eva%...",
+    "videoThumbnail": "https://res.cloudinary.com/rockedevelopr/image/upload/v1636208547/eva%...",
+
+    "imageUri": "https://res.cloudinary.com/rockedevelopr/image/upload/v1616178471/eva%...",
+    "images": [
+      "https://res.cloudinary.com/rockedevelopr/image/upload/v1616178471/eva%40carty.com.br/kuphcajz2yyqay7j3fq2.jpg"
+    ]
+  }
+]

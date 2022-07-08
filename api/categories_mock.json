@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "621fd95250bc5f00230cd19f",
+    "name": "Macacão",
+    "business": "6054d3cbcc22f000244cd0ff",
+    "createdAt": "2022-03-02T20:53:38.976+00:00",
+    "imageUri": null
+  },
+  {
+    "_id": "621fd95250bc5f00230cd16y",
+    "name": "Saias",
+    "business": "6054d3cbcc22f000244cd0ff",
+    "createdAt": "2022-03-02T20:53:38.976+00:00",
+    "imageUri": null
+  },
+  {
+    "_id": "621fd95250bc5f00230cd11q",
+    "name": "Blusas",
+    "business": "6054d3cbcc22f000244cd0ff",
+    "createdAt": "2022-03-02T20:53:38.976+00:00",
+    "imageUri": null
+  }
+]
