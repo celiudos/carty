@@ -11,6 +11,13 @@ App carty como site web
 - Template base: [inst-redq](https://inst-redq.vercel.app/)
 - Gráficos: [Charts](https://apexcharts.com/docs)
 
+O Thiago falou comigo sobre esse último ajuste:
+"ó mudaria 2 coisas: moveria 2 itens do menu para o canto superior direito ( ao lado do perfil )
+poderia colocar um ícone dos pedidos com o badge da quantidade
+e um ícone da loja para a pessoa poder visualizar a loja
+Queria ver os estilos do formulário
+vamos mockar a tela de avaliação?"
+
 # Instalar
 
     npm install
