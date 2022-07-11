@@ -6,8 +6,27 @@ Criar apenas telas mockadas
 
 ### ✨ FEATURE (feat)
 
-1.  criar template inicial
-1.  integrar com ferramenta de upload https://demo.cloudinary.com/uw/#/
+#### Telas
+
+##### Avaliação
+
+1.  (avaliacao) avaliação dos clientes [IMG](templates\img\avaliacao\avaliacao-dos-clientes.jpg)
+1.  (avaliacao) lista de avaliações [IMG](templates\img\avaliacao\lista-avaliacoes.png)
+1.  (avaliacao) formulário de avaliação [IMG](templates\img\avaliacao\form-avaliacao.jpg) **(✔ FEITO)**
+
+##### Estoque
+
+1.  (estoque) controle de estoque [IMG](templates\img\estoque\controle-de-estoque.jpg)
+1.  (estoque) lista de produtos do estoque [IMG](templates\img\estoque\produtos-do-estoque.jpg)
+
+##### Produtos
+
+1.  (produtos) lista de produtos [IMG](templates\img\lista-de-produtos\listar-produtos.png)
+1.  (produtos) formulário de produtos - sem galeria [IMG](templates\img\lista-de-produtos\alterar-produto.png)
+
+##### Variação
+
+1.  (variacao) formulário de variação [IMG](templates\img\variacao\formulario-variacao.jpg)
 
 ### 🚧 REFATORAR (refactor)
 
