@@ -1,4 +1,4 @@
-interface ICategorie {
+interface ICategory {
   _id: string;
   name: string;
   business: string;
