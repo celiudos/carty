@@ -1,5 +1,5 @@
-import { Button, Grid, Rating, Typography } from "@mui/material";
-import React, { useEffect } from "react";
+import { Button, Grid, Rating, Stack, Typography } from "@mui/material";
+import React, { useEffect, useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 
 import MuiDate from "./fields/MuiDate";
@@ -95,9 +95,12 @@ export default function FormAvaliacao() {
           />
         </Grid>
         <Grid item xs={12}>
-          <Button variant="contained" type="submit">
-            Salvar
-          </Button>
+          <Stack spacing={2} direction="row">
+            <Button variant="contained" type="submit">
+              Salvar
+            </Button>
+            <Button variant="text">Cancelar</Button>
+          </Stack>
         </Grid>
       </Grid>
     </form>

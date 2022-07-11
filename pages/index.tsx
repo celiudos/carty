@@ -1,18 +1,15 @@
 import ButtonLinkNext from "@components/buttons/ButtonLinkNext";
 import WidgetChart from "@components/charts/WidgetChart";
 import Layout from "@components/layout/Layout";
-import SquareBtn from "@components/SquareBtn";
 import { Icon } from "@iconify/react";
-import { Avatar, Box, CardActions, CardContent } from "@mui/material";
-import { CardHeader } from "@mui/material";
 import {
+  Avatar,
   Card,
+  CardActions,
+  CardContent,
+  CardHeader,
   Chip,
-  Container,
   Grid,
-  Link,
-  Stack,
-  Typography,
 } from "@mui/material";
 import ImgExemplo from "@public/img/mock/img-example-1.jpg";
 import Image from "next/image";
@@ -43,7 +40,7 @@ export default function Index() {
               />
               <CardActions>
                 <ButtonLinkNext href="https://mystore.carty.com.br">
-                  <Typography>Acessar</Typography>
+                  Acessar
                 </ButtonLinkNext>
               </CardActions>
             </Card>
@@ -64,7 +61,7 @@ export default function Index() {
               </CardContent>
               <CardActions>
                 <ButtonLinkNext href="https://mystore.carty.com.br">
-                  <Typography>Virar PRO</Typography>
+                  Virar PRO
                 </ButtonLinkNext>
               </CardActions>
             </Card>

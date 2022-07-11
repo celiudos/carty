@@ -21,7 +21,7 @@ export const themeOptions: ThemeOptions = {
   palette: {
     mode: "light",
     primary: {
-      main: "#5893df",
+      main: "#333",
     },
     secondary: {
       main: "#ccc",
@@ -35,12 +35,8 @@ export const themeOptions: ThemeOptions = {
     MuiButton: {
       styleOverrides: {
         root: {
-          backgroundColor: "#000",
           padding: "14px 16px",
           borderRadius: 0,
-          "&:hover": {
-            backgroundColor: "#000000b3",
-          },
         },
       },
     },
