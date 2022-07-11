@@ -10,11 +10,11 @@ Criar apenas telas mockadas
 
 ##### Home
 
-1.  (home) tela inicial [IMG](templates\img\home.png) **(✔ FEITO)**
+1.  (home) tela inicial [IMG](templates/img/home.png) **(✔ FEITO)**
 
 ##### Categorias
 
-1.  (categorias) lista de categorias [IMG](templates\img\categorias\lista-categorias.png) **(✔ FEITO)**
+1.  (categorias) lista de categorias [IMG](/celiudos/carty/blob/main/templates/img/categorias/lista-categorias.png) **(✔ FEITO)**
 
 ##### Avaliação
 
@@ -51,3 +51,6 @@ Criar apenas telas mockadas
 ## Fase 2
 
 Integração com Backend e implementação de regras de negócio
+
+https://github.com/celiudos/carty/blob/main/templates%5Cimg%5Chome.png
+https://github.com/celiudos/carty/blob/main/templates/img/home.png
