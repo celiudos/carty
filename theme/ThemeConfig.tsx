@@ -21,7 +21,7 @@ export const themeOptions: ThemeOptions = {
   palette: {
     mode: "light",
     primary: {
-      main: "#333",
+      main: "#333333",
     },
     secondary: {
       main: "#ccc",
