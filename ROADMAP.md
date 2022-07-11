@@ -8,6 +8,14 @@ Criar apenas telas mockadas
 
 #### Telas
 
+##### Home
+
+1.  (home) tela inicial [IMG](templates\img\home.png) **(✔ FEITO)**
+
+##### Categorias
+
+1.  (categorias) lista de categorias [IMG](templates\img\categorias\lista-categorias.png) **(✔ FEITO)**
+
 ##### Avaliação
 
 1.  (avaliacao) avaliação dos clientes [IMG](templates\img\avaliacao\avaliacao-dos-clientes.jpg)
@@ -21,7 +29,7 @@ Criar apenas telas mockadas
 
 ##### Produtos
 
-1.  (produtos) lista de produtos [IMG](templates\img\lista-de-produtos\listar-produtos.png)
+1.  (produtos) lista de produtos [IMG](\templates\img\lista-de-produtos\listar-produtos.png)
 1.  (produtos) formulário de produtos - sem galeria [IMG](templates\img\lista-de-produtos\alterar-produto.png)
 
 ##### Variação
