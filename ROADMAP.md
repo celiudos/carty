@@ -15,7 +15,7 @@ Criar apenas telas mockadas
 ##### Categorias
 
 1.  (categorias) lista de categorias [IMG](templates/img/categorias/lista-categorias.png) **(✔ FEITO)**
-1.  (categorias) renomear categoria [IMG](templates\img\categorias\renomear-categoria.jpg)
+1.  (categorias) renomear categoria [IMG](templates\img\categorias\renomear-categoria.jpg) **(✔ FEITO)**
 
 ##### Avaliação
 
