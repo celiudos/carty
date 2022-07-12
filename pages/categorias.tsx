@@ -75,7 +75,7 @@ export default function Index() {
                               </Typography>
                             </CardContent> */}
                             <CardActions disableSpacing>
-                              <IconButtonLinkNext href="/alterar">
+                              <IconButtonLinkNext href="/categoria-alterar">
                                 <Icon icon={"mdi:edit"} />
                               </IconButtonLinkNext>
                               <IconButtonLinkNext href="/excluir">
