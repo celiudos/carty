@@ -15,7 +15,7 @@ Criar apenas telas mockadas
 ##### Categorias
 
 1.  (categorias) lista de categorias [IMG](templates/img/categorias/lista-categorias.png) **(✔ FEITO)**
-1.  (categorias) renomear categoria [IMG](templates\img\categorias\renomear-categoria.jpg)
+1.  (categorias) renomear categoria [IMG](templates/img/categorias/renomear-categoria.jpg)
 
 ##### Avaliação
 
@@ -39,16 +39,16 @@ Criar apenas telas mockadas
 
 ##### Envio e Pacotes
 
-1.  (envio-e-pacotes) lista envio e pacotes [IMG](templates\img\envio-e-pacotes\lista-envio-e-pacotes.jpg)
-1.  (envio-e-pacotes) envio pelos correios [IMG](templates\img\envio-e-pacotes\envio-pelos-correios.jpg)
-1.  (envio-e-pacotes) form informe o cep [IMG](templates\img\envio-e-pacotes\informe-o-cep.jpg)
-1.  (envio-e-pacotes) lista dimensoes [IMG](templates\img\envio-e-pacotes\lista-dimensoes.jpg)
-1.  (envio-e-pacotes) entrega local [IMG](templates\img\envio-e-pacotes\entrega-local.jpg)
-1.  (envio-e-pacotes) lista de regiões [IMG](templates\img\envio-e-pacotes\lista-regioes.jpg)
-1.  (envio-e-pacotes) form região de entrega [IMG](templates\img\envio-e-pacotes\form-regiao-entrega.jpg)
-1.  (envio-e-pacotes) lista retirar na loja [IMG](templates\img\envio-e-pacotes\retirar-na-loja.jpg)
-1.  (envio-e-pacotes) form retirar na loja [IMG](templates\img\envio-e-pacotes\retirar-na-loja-form.jpg)
-1.  (envio-e-pacotes) form frete grátis [IMG](templates\img\envio-e-pacotes\frete-gratis-form.jpg)
+1.  (envio-e-pacotes) lista envio e pacotes [IMG](templates/img/envio-e-pacotes/lista-envio-e-pacotes.jpg)
+1.  (envio-e-pacotes) envio pelos correios [IMG](templates/img/envio-e-pacotes/envio-pelos-correios.jpg)
+1.  (envio-e-pacotes) form informe o cep [IMG](templates/img/envio-e-pacotes/informe-o-cep.jpg)
+1.  (envio-e-pacotes) lista dimensoes [IMG](templates/img/envio-e-pacotes/lista-dimensoes.jpg)
+1.  (envio-e-pacotes) entrega local [IMG](templates/img/envio-e-pacotes/entrega-local.jpg)
+1.  (envio-e-pacotes) lista de regiões [IMG](templates/img/envio-e-pacotes/lista-regioes.jpg)
+1.  (envio-e-pacotes) form região de entrega [IMG](templates/img/envio-e-pacotes/form-regiao-entrega.jpg)
+1.  (envio-e-pacotes) lista retirar na loja [IMG](templates/img/envio-e-pacotes/retirar-na-loja.jpg)
+1.  (envio-e-pacotes) form retirar na loja [IMG](templates/img/envio-e-pacotes/retirar-na-loja-form.jpg)
+1.  (envio-e-pacotes) form frete grátis [IMG](templates/img/envio-e-pacotes/frete-gratis-form.jpg)
 
 ### 🚧 REFATORAR (refactor)
 
