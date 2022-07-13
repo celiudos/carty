@@ -20,7 +20,7 @@ export default function IconLink({ href, text, iconName }: IIconLink) {
                   <Icon icon={iconName} />
                 </ListItemIcon>
                 <ListItemText primary={text} />
-                <ListItemIcon>
+                <ListItemIcon sx={{minWidth: '24px'}}>
                   <Icon
                     style={{ marginLeft: "auto" }}
                     icon="akar-icons:chevron-right"
