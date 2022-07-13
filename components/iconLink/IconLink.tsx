@@ -12,15 +12,11 @@ export default function IconLink({ href, text, iconName }: IIconLink) {
   return (
     <>
       <Link href={href || ""} passHref>
-        <Box
-          sx={{
-            display: "flex",
-          }}
-        >
+        <Box>
           <List>
             <ListItem disablePadding>
               <ListItemButton>
-                <ListItemIcon>
+                <ListItemIcon sx={{minWidth: '24px'}}>
                   <Icon icon={iconName} />
                 </ListItemIcon>
                 <ListItemText primary={text} />
