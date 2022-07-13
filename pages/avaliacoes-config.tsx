@@ -1,8 +1,15 @@
+import IconLink from "@components/iconLink/IconLink";
 import Layout from "@components/layout/Layout";
+import { Icon } from "@iconify/react";
 import {
   FormControlLabel,
   FormGroup,
   Grid,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemIcon,
+  ListItemText,
   Switch,
   Typography,
 } from "@mui/material";
@@ -11,7 +18,14 @@ export default function Index() {
   return (
     <Layout>
       <Grid container spacing={2}>
-        <Grid item xs={12}>
+        <Grid item lg={3}>
+          <IconLink
+            iconName="akar-icons:star"
+            text="Avaliações"
+            href="avaliacoes"
+          />
+        </Grid>
+        <Grid item lg>
           <Typography gutterBottom variant="h2">
             Avaliações dos Clientes
           </Typography>
@@ -20,16 +34,9 @@ export default function Index() {
             vendas. Envie o link de avaliação para os seus clientes na tela de
             pedidos, após a conclusão do pedido.
           </Typography>
-        </Grid>
-        <Grid item xs={12}>
           <FormGroup>
             <FormControlLabel control={<Switch />} label="Ativado" />
           </FormGroup>
-          {/* <IconLink
-            iconName="akar-icons:star"
-            text="Avaliações"
-            href="avaliacoes"
-          /> */}
         </Grid>
       </Grid>
     </Layout>
