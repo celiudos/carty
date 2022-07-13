@@ -1,15 +1,9 @@
 import IconLink from "@components/iconLink/IconLink";
 import Layout from "@components/layout/Layout";
-import { Icon } from "@iconify/react";
 import {
   FormControlLabel,
   FormGroup,
   Grid,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
   Switch,
   Typography,
 } from "@mui/material";

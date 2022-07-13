@@ -14,19 +14,32 @@ export default function Index() {
       <Grid container spacing={2}>
         <Grid item lg={3}>
           <IconLink
-            iconName="bi:truck"
-            text="Regiões de entrega"
+            iconName="ant-design:mail-outlined"
+            text="Envio pelos Correios"
+            href="entregas"
+          />
+          <IconLink
+            iconName="akar-icons:location"
+            text="Entrega Local"
+            href="entregas"
+          />
+          <IconLink
+            iconName="akar-icons:arrow-up-right"
+            text="Retirar na Loja"
+            href="entregas"
+          />
+          <IconLink
+            iconName="bi:currency-dollar"
+            text="Frete Grátis"
             href="entregas"
           />
         </Grid>
         <Grid item lg>
           <Typography gutterBottom variant="h2">
-            Quanto é a taxa de entrega?
+            Vamos configurar suas formas de entregas?
           </Typography>
           <Typography gutterBottom variant="h6">
-            Agora você pode definir taxa de entrega diferenciada por
-            região/bairro. Informe as regiões que você realiza entrega e o valor
-            da taxa de entrega.
+            Você pode optar por entregar pelos correios e/ou fazer entregas locais na sua região.
           </Typography>
           <FormGroup>
             <FormControlLabel control={<Switch />} label="Ativado" />
