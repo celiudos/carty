@@ -1,25 +1,25 @@
-import { Icon } from "@iconify/react";
-import { Typography, Divider, Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
-import Link from "next/link";
+import { Icon } from '@iconify/react';
+import { Box, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import Link from 'next/link';
 
 interface IIconLink {
-  text: string
-  href: string
-  iconName: string
+  text: string;
+  href: string;
+  iconName: string;
 }
 
 export default function IconLink({ href, text, iconName }: IIconLink) {
   return (
     <>
-      <Link href={href || ""} passHref>
-        <Box
-          sx={{
-            display: "flex",
-          }}
-        >
-          <List>
-            <ListItem disablePadding>
-              <ListItemButton>
+      <Box
+        sx={{
+          display: "flex",
+        }}
+      >
+        <List>
+          <ListItem disablePadding>
+            <Link href={href || ""} passHref>
+              <ListItemButton component="a">
                 <ListItemIcon>
                   <Icon icon={iconName} />
                 </ListItemIcon>
@@ -31,11 +31,11 @@ export default function IconLink({ href, text, iconName }: IIconLink) {
                   />
                 </ListItemIcon>
               </ListItemButton>
-            </ListItem>
-            <Divider />
-          </List>
-        </Box>
-      </Link>
+            </Link>
+          </ListItem>
+          <Divider />
+        </List>
+      </Box>
     </>
   );
 }

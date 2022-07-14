@@ -1,18 +1,6 @@
-import IconLink from "@components/iconLink/IconLink";
-import Layout from "@components/layout/Layout";
-import { Icon } from "@iconify/react";
-import {
-  FormControlLabel,
-  FormGroup,
-  Grid,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-  Switch,
-  Typography,
-} from "@mui/material";
+import IconLink from '@components/iconLink/IconLink';
+import Layout from '@components/layout/Layout';
+import { FormControlLabel, FormGroup, Grid, Switch, Typography } from '@mui/material';
 
 export default function Index() {
   return (
@@ -22,7 +10,7 @@ export default function Index() {
           <IconLink
             iconName="akar-icons:star"
             text="Avaliações"
-            href="avaliacoes"
+            href="/avaliacoes"
           />
         </Grid>
         <Grid item lg>
