@@ -52,6 +52,9 @@ Criar apenas telas mockadas
 
 ### 🚧 REFATORAR (refactor)
 
+1.  criar pasta de envio-e-pacotes
+1.  componente IconLink para múltiplos links
+
 ### 🐛 BUG (fix)
 
 ### 🎨 MELHORIA (style, build, chore)
