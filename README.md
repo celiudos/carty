@@ -30,8 +30,9 @@ vamos mockar a tela de avaliação?"
 
 # Commitar
 
-    Os commits são travados e seguem um padrão de commits.
-    Vide o arquivo [COMMITS_PADRONIZADOS.md](COMMITS_PADRONIZADOS.md)
+Os commits são travados e seguem um padrão de commits.
+
+Para mais detalhes, veja o arquivo [COMMITS_PADRONIZADOS.md](COMMITS_PADRONIZADOS.md)
 
 # Recomendação de Dev
 
