@@ -14,17 +14,23 @@ export default function Index() {
       <Grid container spacing={2}>
         <Grid item lg={3}>
           <IconLink
+            iconName="akar-icons:location"
+            text="CEP da loja"
+            href="entregas"
+          />
+          <IconLink
             iconName="akar-icons:shipping-box-v2"
-            text="Produtos do estoque"
-            href="estoque"
+            text="Dimensões dos produtos"
+            href="entregas"
           />
         </Grid>
         <Grid item lg>
           <Typography gutterBottom variant="h2">
-            Controle de estoque
+            Sua loja integrada aos Correios.
           </Typography>
           <Typography gutterBottom variant="h6">
-            Ofereça aos seus clientes apenas os produtos que você possui em estoque e evite compras frustadas.
+            Informe o CEP da sua loja e as dimensões dos seus produtos para um
+            cálculo de frete automático.
           </Typography>
           <FormGroup>
             <FormControlLabel control={<Switch />} label="Ativado" />

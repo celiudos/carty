@@ -14,17 +14,17 @@ export default function Index() {
       <Grid container spacing={2}>
         <Grid item lg={3}>
           <IconLink
-            iconName="akar-icons:shipping-box-v2"
-            text="Produtos do estoque"
-            href="estoque"
+            iconName="akar-icons:location"
+            text="Endereço da Loja"
+            href="entregas"
           />
         </Grid>
         <Grid item lg>
           <Typography gutterBottom variant="h2">
-            Controle de estoque
+           Deseja permitir a retirada dos produtos na sua loja física?
           </Typography>
           <Typography gutterBottom variant="h6">
-            Ofereça aos seus clientes apenas os produtos que você possui em estoque e evite compras frustadas.
+            Alguns clientes preferem buscar o produto para economizar na taxa de entrega.
           </Typography>
           <FormGroup>
             <FormControlLabel control={<Switch />} label="Ativado" />

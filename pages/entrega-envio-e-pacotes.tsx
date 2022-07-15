@@ -14,17 +14,32 @@ export default function Index() {
       <Grid container spacing={2}>
         <Grid item lg={3}>
           <IconLink
-            iconName="akar-icons:shipping-box-v2"
-            text="Produtos do estoque"
-            href="estoque"
+            iconName="ant-design:mail-outlined"
+            text="Envio pelos Correios"
+            href="entregas"
+          />
+          <IconLink
+            iconName="akar-icons:location"
+            text="Entrega Local"
+            href="entregas"
+          />
+          <IconLink
+            iconName="akar-icons:arrow-up-right"
+            text="Retirar na Loja"
+            href="entregas"
+          />
+          <IconLink
+            iconName="bi:currency-dollar"
+            text="Frete Grátis"
+            href="entregas"
           />
         </Grid>
         <Grid item lg>
           <Typography gutterBottom variant="h2">
-            Controle de estoque
+            Vamos configurar suas formas de entregas?
           </Typography>
           <Typography gutterBottom variant="h6">
-            Ofereça aos seus clientes apenas os produtos que você possui em estoque e evite compras frustadas.
+            Você pode optar por entregar pelos correios e/ou fazer entregas locais na sua região.
           </Typography>
           <FormGroup>
             <FormControlLabel control={<Switch />} label="Ativado" />

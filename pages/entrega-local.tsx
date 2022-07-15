@@ -14,17 +14,19 @@ export default function Index() {
       <Grid container spacing={2}>
         <Grid item lg={3}>
           <IconLink
-            iconName="akar-icons:shipping-box-v2"
-            text="Produtos do estoque"
-            href="estoque"
+            iconName="bi:truck"
+            text="Regiões de entrega"
+            href="entregas"
           />
         </Grid>
         <Grid item lg>
           <Typography gutterBottom variant="h2">
-            Controle de estoque
+            Quanto é a taxa de entrega?
           </Typography>
           <Typography gutterBottom variant="h6">
-            Ofereça aos seus clientes apenas os produtos que você possui em estoque e evite compras frustadas.
+            Agora você pode definir taxa de entrega diferenciada por
+            região/bairro. Informe as regiões que você realiza entrega e o valor
+            da taxa de entrega.
           </Typography>
           <FormGroup>
             <FormControlLabel control={<Switch />} label="Ativado" />
