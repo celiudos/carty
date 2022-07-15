@@ -59,6 +59,8 @@ Criar apenas telas mockadas
 
 ### 🎨 MELHORIA (style, build, chore)
 
+1.  inserir plugin prettier antes do commit
+
 ### ⏩ DESEMPENHO (perf)
 
 ### ✅ TEST (test)
