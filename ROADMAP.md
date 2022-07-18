@@ -95,21 +95,21 @@ Criar apenas telas mockadas
 1.  (cupom) meus cupons
 1.  (cupom) criar cupom
 
-##### Configurações
+##### Configurar
 
-1.  (configuracoes) lista configurar minha loja
-1.  (configuracoes) mudar nome do seu negócio
-1.  (configuracoes) endereço na internet
-1.  (configuracoes) rápida descrição do seu negócio
-1.  (configuracoes) alterar logomarca
-1.  (configuracoes) representação legal
-1.  (configuracoes) endereço fixo
-1.  (configuracoes) pedidos no zap
-1.  (configuracoes) conecte às redes sociais
-1.  (configuracoes) lista pagamento
-1.  (configuracoes) modelo loja virtual
-1.  (configuracoes) pedido mínimo
-1.  (configuracoes) barra de pesquisa
+1.  (configurar) lista configurar minha loja **(✔ FEITO)**
+1.  (configurar) mudar nome do seu negócio **(✔ FEITO)**
+1.  (configurar) endereço na internet **(✔ FEITO)**
+1.  (configurar) rápida descrição do seu negócio **(✔ FEITO)**
+1.  (configurar) alterar logomarca **(✔ FEITO)**
+1.  (configurar) representação legal **(✔ FEITO)**
+1.  (configurar) endereço fixo **(✔ FEITO)**
+1.  (configurar) pedidos no zap **(✔ FEITO)**
+1.  (configurar) conecte às redes sociais **(✔ FEITO)**
+1.  (configurar) lista pagamento **(✔ FEITO)**
+1.  (configurar) modelo loja virtual **(✔ FEITO)**
+1.  (configurar) pedido mínimo **(✔ FEITO)**
+1.  (configurar) barra de pesquisa **(✔ FEITO)**
 
 ### 🚧 REFATORAR (refactor)
 

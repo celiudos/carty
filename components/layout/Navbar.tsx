@@ -1,4 +1,4 @@
-import { Icon } from "@iconify/react";
+import { Icon } from '@iconify/react';
 import {
   Avatar,
   Badge,
@@ -10,19 +10,18 @@ import {
   Menu,
   MenuItem,
   MenuList,
-  Stack,
   Tab,
   Tabs,
   Tooltip,
   Typography,
-} from "@mui/material";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import LogoImg from "@public/img/logo-fina.png";
-import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { useState } from "react";
+} from '@mui/material';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import LogoImg from '@public/img/logo-fina.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 function a11yProps(index: number) {
   return {
@@ -81,7 +80,10 @@ const MENU = [
 export default function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const router = useRouter();
-  const paginaAtual = MENU.find((item) => item.href === router.pathname) || {
+
+  const paginaAtual = MENU.slice(1).find((item) =>
+    router.pathname.startsWith(item.href)
+  ) || {
     href: "/",
   };
 

@@ -14,7 +14,7 @@ export default function MenuQuantidades({ itens }: { itens: any }): any {
               secondaryAction={<BtnsAlterarQnt qnt={item.qnt} />}
             >
               <ListItemAvatar>
-                <Avatar alt="Remy Sharp">
+                <Avatar alt={item.txt}>
                   <Image src={item.img} width={60} height={60} alt={item.txt} />
                 </Avatar>
               </ListItemAvatar>
