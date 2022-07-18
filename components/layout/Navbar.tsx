@@ -31,24 +31,13 @@ function a11yProps(index: number) {
 }
 
 const MENU = [
-  { label: "Produtos", badgeCount: 0, icon: "bi:box", href: "/" },
+  { label: "Home", badgeCount: 0, icon: "bi:house", href: "/" },
+  { label: "Produtos", badgeCount: 0, icon: "bi:box", href: "/produtos" },
   {
     label: "Categorias",
     badgeCount: 0,
-    icon: "bx:store-alt",
+    icon: "bx:label",
     href: "/categorias",
-  },
-  {
-    label: "Pedidos",
-    badgeCount: 50,
-    icon: "akar-icons:arrow-shuffle",
-    href: "/pedidos",
-  },
-  {
-    label: "Minha Loja",
-    badgeCount: 0,
-    icon: "bi:bag-check",
-    href: "/minha-loja",
   },
   {
     label: "Divulgação",
@@ -96,17 +85,30 @@ export default function Navbar() {
       <AppBar position="static" elevation={0} component={"div"}>
         <Toolbar>
           <Grid container mt={3}>
-            <Grid
-              item
-              container
-              alignItems={"center"}
-              justifyContent="space-between"
-            >
-              <Grid item>
+            <Grid item container alignItems={"center"}>
+              <Grid item xs={6}>
                 <Image src={LogoImg} width={80} height={40} alt="Logo" />
               </Grid>
-              <Grid item>
-                <MenuUsuario />
+              <Grid item container spacing={2} xs={6} justifyContent="flex-end">
+                <Grid item>
+                  <Badge badgeContent={40} color="primary">
+                    <Link href="/pedidos" passHref>
+                      <IconButton title="Pedidos">
+                        <Icon icon={"humbleicons:user-asking"} height="24" />
+                      </IconButton>
+                    </Link>
+                  </Badge>
+                </Grid>
+                <Grid item>
+                  <Link href="http://minhaloja.carty.com.br" passHref>
+                    <IconButton title="Minha Loja">
+                      <Icon icon={"bx:store-alt"} height="24" />
+                    </IconButton>
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <MenuUsuario />
+                </Grid>
               </Grid>
             </Grid>
             <Grid

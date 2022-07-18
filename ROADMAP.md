@@ -44,7 +44,7 @@ Criar apenas telas mockadas
 1.  (produtos) menu de edição
 1.  (produtos) formulário de produtos - sem galeria [IMG](templates/img/lista-de-produtos/alterar-produto.png)
 1.  (produtos) indisponibilizar item
-1.  (produtos) form variação
+1.  (produtos) form variação **(✔ FEITO)**
 1.  (produtos) excluir variação
 1.  (produtos) pesquisar
 
@@ -114,8 +114,6 @@ Criar apenas telas mockadas
 ### 🚧 REFATORAR (refactor)
 
 1.  (refactor) criar pasta categorias **(✔ FEITO)**
-1.  (refactor) criar pasta envio-e-pacotes
-1.  (refactor) ccomponente IconLink para múltiplos links
 
 ### 🐛 BUG (fix)
 
