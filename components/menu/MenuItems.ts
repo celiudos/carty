@@ -1,6 +1,20 @@
 import { ReactElement, useState } from 'react';
 
 const MENU_ITEMS = {
+  estoque: [
+    {
+      icon: "akar-icons:shipping-box-v2",
+      text: "Produtos do Estoque",
+      url: "/produtos-do-estoque",
+    },
+  ],
+  avaliacoes: [
+    {
+      icon: "ant-design:star",
+      text: "Avaliação",
+      url: "/avaliacao",
+    },
+  ],
   entregas: [
     {
       icon: "ant-design:mail-outlined",
