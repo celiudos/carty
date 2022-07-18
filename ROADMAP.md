@@ -4,7 +4,7 @@
 
 Criar apenas telas mockadas
 
-- 18/07/22: 65 demandas / 14 feitas / 51 a fazer
+- 18/07/22: 65 demandas / 28 feitas / 37 a fazer
 
 ### ✨ FEATURE (feat)
 
