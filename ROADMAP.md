@@ -4,6 +4,8 @@
 
 Criar apenas telas mockadas
 
+- 18/07/22: 65 demandas / 14 feitas / 51 a fazer
+
 ### ✨ FEATURE (feat)
 
 #### Telas
@@ -15,7 +17,14 @@ Criar apenas telas mockadas
 ##### Categorias
 
 1.  (categorias) lista de categorias [IMG](templates/img/categorias/lista-categorias.png) **(✔ FEITO)**
+1.  (categorias) menu de edição
+1.  (categorias) foto da sua categoria
+1.  (categorias) organizar produtos
 1.  (categorias) renomear categoria [IMG](templates/img/categorias/renomear-categoria.jpg) **(✔ FEITO)**
+1.  (categorias) excluir produtos
+1.  (categorias) agrupar categorias
+1.  (categorias) nome grupo categoria
+1.  (categorias) ação agrupar
 
 ##### Avaliação
 
@@ -31,7 +40,13 @@ Criar apenas telas mockadas
 ##### Produtos
 
 1.  (produtos) lista de produtos [IMG](templates/img/lista-de-produtos/listar-produtos.png)
+1.  (produtos) visualizar item
+1.  (produtos) menu de edição
 1.  (produtos) formulário de produtos - sem galeria [IMG](templates/img/lista-de-produtos/alterar-produto.png)
+1.  (produtos) indisponibilizar item
+1.  (produtos) form variação
+1.  (produtos) excluir variação
+1.  (produtos) pesquisar
 
 ##### Variação
 
@@ -49,6 +64,52 @@ Criar apenas telas mockadas
 1.  (envio-e-pacotes) lista retirar na loja [IMG](templates/img/envio-e-pacotes/retirar-na-loja.jpg) **(✔ FEITO)**
 1.  (envio-e-pacotes) form retirar na loja [IMG](templates/img/envio-e-pacotes/retirar-na-loja-form.jpg) **(✔ FEITO)**
 1.  (envio-e-pacotes) form frete grátis [IMG](templates/img/envio-e-pacotes/frete-gratis-form.jpg) **(✔ FEITO)**
+
+##### Perfil
+
+1.  (perfil) lista principal
+1.  (perfil) mudar senha
+1.  (perfil) excluir conta
+
+##### Pedidos
+
+1.  (pedidos) lista pendentes
+1.  (pedidos) lista concluídos
+1.  (pedidos) detalhes
+1.  (pedidos) detalhes cancelar
+1.  (pedidos) detalhes notificar
+1.  (pedidos) detalhes excluir
+
+##### Mercado Pago
+
+1.  (mercado-pago) pagamento na loja
+1.  (mercado-pago) integracao
+1.  (mercado-pago) login
+1.  (mercado-pago) informe suas credenciais
+1.  (mercado-pago) termos e condições de uso
+1.  (mercado-pago) taxas
+
+##### Cupom
+
+1.  (cupom) lista divulgação da loja
+1.  (cupom) meus cupons
+1.  (cupom) criar cupom
+
+##### Configurações
+
+1.  (configuracoes) lista configurar minha loja
+1.  (configuracoes) mudar nome do seu negócio
+1.  (configuracoes) endereço na internet
+1.  (configuracoes) rápida descrição do seu negócio
+1.  (configuracoes) alterar logomarca
+1.  (configuracoes) representação legal
+1.  (configuracoes) endereço fixo
+1.  (configuracoes) pedidos no zap
+1.  (configuracoes) conecte às redes sociais
+1.  (configuracoes) lista pagamento
+1.  (configuracoes) modelo loja virtual
+1.  (configuracoes) pedido mínimo
+1.  (configuracoes) barra de pesquisa
 
 ### 🚧 REFATORAR (refactor)
 
