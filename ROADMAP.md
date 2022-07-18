@@ -113,8 +113,9 @@ Criar apenas telas mockadas
 
 ### 🚧 REFATORAR (refactor)
 
-1.  (envio-e-pacotes) criar pasta
-1.  componente IconLink para múltiplos links
+1.  (refactor) criar pasta categorias
+1.  (refactor) criar pasta envio-e-pacotes
+1.  (refactor) ccomponente IconLink para múltiplos links
 
 ### 🐛 BUG (fix)
 

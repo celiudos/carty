@@ -1,8 +1,9 @@
-import { Button, Grid, Stack, Typography } from "@mui/material";
-import { useEffect } from "react";
-import { SubmitHandler, useForm } from "react-hook-form";
+import ButtonLinkNext from '@components/buttons/ButtonLinkNext';
+import { Button, Grid, Stack, Typography } from '@mui/material';
+import { useEffect } from 'react';
+import { SubmitHandler, useForm } from 'react-hook-form';
 
-import MuiTextfield from "./fields/MuiTextfield";
+import MuiTextfield from './fields/MuiTextfield';
 
 const defaultValues = {
   select: "",
@@ -19,10 +20,9 @@ interface IFormInput {
 }
 
 export default function FormCategoria() {
-  const { register, handleSubmit, setValue, watch } =
-    useForm<IFormInput>({
-      defaultValues,
-    });
+  const { register, handleSubmit, setValue, watch } = useForm<IFormInput>({
+    defaultValues,
+  });
   const selectValue = watch("select");
   const onSubmit: SubmitHandler<IFormInput> = (data) => {
     console.log(data);
@@ -38,7 +38,9 @@ export default function FormCategoria() {
     <form onSubmit={handleSubmit(onSubmit)}>
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <Typography variant="h2">Quer mudar o nome da categoria? É só digitar aí embaixo</Typography>
+          <Typography variant="h2">
+            Quer mudar o nome da categoria? É só digitar aí embaixo
+          </Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h6" component="legend">
@@ -52,13 +54,13 @@ export default function FormCategoria() {
             }}
           />
         </Grid>
-       
+
         <Grid item xs={12}>
           <Stack spacing={2} direction="row">
             <Button variant="contained" type="submit">
               Salvar
             </Button>
-            <Button variant="text">Cancelar</Button>
+            <ButtonLinkNext href="/categorias">Cancelar</ButtonLinkNext>
           </Stack>
         </Grid>
       </Grid>
