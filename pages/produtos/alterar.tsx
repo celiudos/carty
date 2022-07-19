@@ -55,10 +55,10 @@ export default function Produtos() {
             <Typography variant="caption">{PRODUTO.title}</Typography>
           </Grid>
         </Grid>
-        <Grid item xs={12} spacing={2}>
+        <Grid item xs={12}>
           <form>
-            <Grid container spacing={2} xs={12}>
-              <Grid item spacing={2}>
+            <Grid container spacing={2}>
+              <Grid item>
                 <Stack direction={"row"} spacing={2}>
                   {LISTA_CATEGORIAS[0]
                     ? LISTA_CATEGORIAS[0].products.map((img, key) => (
@@ -76,7 +76,7 @@ export default function Produtos() {
                             <IconButtonLinkNext href="/produtos/alterar">
                               <Icon icon={"mdi:edit"} />
                             </IconButtonLinkNext>
-                            <IconButtonLinkNext>
+                            <IconButtonLinkNext href="/">
                               <Icon icon={"mdi:delete"} />
                             </IconButtonLinkNext>
                           </CardActions>

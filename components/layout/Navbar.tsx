@@ -46,24 +46,24 @@ const MENU = [
     icon: "ant-design:share-alt-outlined",
     href: "/divulgacao",
   },
-  {
-    label: "Configurar",
-    badgeCount: 0,
-    icon: "icon-park-outline:config",
-    href: "/configurar",
-  },
-  {
-    label: "Estoque",
-    badgeCount: 0,
-    icon: "akar-icons:shipping-box-v2",
-    href: "/estoque",
-  },
+  // {
+  //   label: "Estoque",
+  //   badgeCount: 0,
+  //   icon: "akar-icons:shipping-box-v2",
+  //   href: "/estoque",
+  // },
   { label: "Entregas", badgeCount: 0, icon: "bi:truck", href: "/entregas" },
   {
     label: "Avaliações",
     badgeCount: 0,
     icon: "akar-icons:star",
     href: "/avaliacoes",
+  },
+  {
+    label: "Configurar",
+    badgeCount: 0,
+    icon: "icon-park-outline:config",
+    href: "/configurar",
   },
 ];
 

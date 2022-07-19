@@ -62,13 +62,18 @@ const MENU_ITEMS = {
       text: "Barra de Pesquisa",
       url: "/barra-de-pesquisa",
     },
+    {
+      icon: "bi:currency-dollar",
+      text: "Frete Grátis",
+      url: "/frete-gratis",
+    },
   ],
   estoque: [
-    {
-      icon: "akar-icons:shipping-box-v2",
-      text: "Produtos do Estoque",
-      url: "/produtos-do-estoque",
-    },
+    // {
+    //   icon: "akar-icons:shipping-box-v2",
+    //   text: "Produtos do Estoque",
+    //   url: "/produtos-do-estoque",
+    // },
   ],
   mercadoPago: [
     {
@@ -117,11 +122,6 @@ const MENU_ITEMS = {
       text: "Retirar na Loja",
       url: "/retirar-na-loja",
     },
-    {
-      icon: "bi:currency-dollar",
-      text: "Frete Grátis",
-      url: "/frete-gratis",
-    },
   ],
   entregas_envioPelosCorreios: [
     {
@@ -129,9 +129,21 @@ const MENU_ITEMS = {
       text: "CEP da loja",
       url: "/cep-da-loja",
     },
+  ],
+  produtos: [
     {
       icon: "akar-icons:shipping-box-v2",
-      text: "Dimensões dos produtos",
+      text: "Produtos",
+      url: "/produtos",
+    },
+    {
+      icon: "akar-icons:shipping-box-v2",
+      text: "Estoque",
+      url: "/produtos-do-estoque",
+    },
+    {
+      icon: "akar-icons:shipping-box-v2",
+      text: "Dimensões",
       url: "/dimensoes-dos-produtos",
     },
   ],
