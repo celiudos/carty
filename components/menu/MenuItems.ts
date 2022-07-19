@@ -70,6 +70,30 @@ const MENU_ITEMS = {
       url: "/produtos-do-estoque",
     },
   ],
+  mercadoPago: [
+    {
+      icon: "arcticons:mercado-libre",
+      text: "Mercado Pago",
+      url: "/integracao-mercado-pago",
+    },
+  ],
+  mercadoPago_integracao: [
+    {
+      icon: "akar-icons:key",
+      text: "Credenciais",
+      url: "/credenciais",
+    },
+    {
+      icon: "bi:currency-dollar",
+      text: "Taxas",
+      url: "/taxas",
+    },
+    {
+      icon: "bx:like",
+      text: "Termos de uso",
+      url: "/termos-e-condicoes-de-uso",
+    },
+  ],
   avaliacoes: [
     {
       icon: "ant-design:star",
