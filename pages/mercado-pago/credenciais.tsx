@@ -1,8 +1,7 @@
 import FormCredenciais from '@components/forms/FormCredenciais';
 import Layout from '@components/layout/Layout';
-import MenuEsquerdo from '@components/menu/MenuEsquerdo';
-import MENU_ITEMS from '@components/menu/MenuItems';
-import { Breadcrumbs, FormControlLabel, FormGroup, Grid, Switch, Typography } from '@mui/material';
+
+import { Breadcrumbs, Grid, Typography } from '@mui/material';
 
 export default function MercadoPagoCredenciais() {
   return (
