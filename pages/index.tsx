@@ -1,18 +1,10 @@
-import ButtonLinkNext from "@components/buttons/ButtonLinkNext";
-import WidgetChart from "@components/charts/WidgetChart";
-import Layout from "@components/layout/Layout";
-import { Icon } from "@iconify/react";
-import {
-  Avatar,
-  Card,
-  CardActions,
-  CardContent,
-  CardHeader,
-  Chip,
-  Grid,
-} from "@mui/material";
-import ImgExemplo from "@public/img/mock/img-example-1.jpg";
-import Image from "next/image";
+import ButtonLinkNext from '@components/buttons/ButtonLinkNext';
+import WidgetChart from '@components/charts/WidgetChart';
+import Layout from '@components/layout/Layout';
+import { Icon } from '@iconify/react';
+import { Avatar, Card, CardActions, CardContent, CardHeader, Chip, Grid } from '@mui/material';
+import ImgExemplo from '@public/img/mock/img-example-1.jpg';
+import Image from 'next/image';
 
 export default function Index() {
   return (
@@ -60,9 +52,7 @@ export default function Index() {
                 <Chip label="PRO" />
               </CardContent>
               <CardActions>
-                <ButtonLinkNext href="https://mystore.carty.com.br">
-                  Virar PRO
-                </ButtonLinkNext>
+                <ButtonLinkNext href="/mercado-pago">Ver mais</ButtonLinkNext>
               </CardActions>
             </Card>
           </Grid>

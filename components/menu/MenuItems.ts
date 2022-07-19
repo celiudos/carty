@@ -74,7 +74,7 @@ const MENU_ITEMS = {
     {
       icon: "arcticons:mercado-libre",
       text: "Mercado Pago",
-      url: "/mercado-pago",
+      url: "/integracao-mercado-pago",
     },
   ],
   mercadoPago_integracao: [
@@ -91,7 +91,7 @@ const MENU_ITEMS = {
     {
       icon: "bx:like",
       text: "Termos de uso",
-      url: "/Termos de uso",
+      url: "/termos-e-condicoes-de-uso",
     },
   ],
   avaliacoes: [

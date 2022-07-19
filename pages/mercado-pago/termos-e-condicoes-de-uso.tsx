@@ -1,13 +1,19 @@
-import FormCredenciais from '@components/forms/FormCredenciais';
 import Layout from '@components/layout/Layout';
-import { Icon } from '@iconify/react';
-import { Box, Breadcrumbs, Button, FormControlLabel, FormGroup, Grid, IconButton, Switch, Typography } from '@mui/material';
+import MenuEsquerdo from '@components/menu/MenuEsquerdo';
+import MENU_ITEMS from '@components/menu/MenuItems';
+import { Box, Breadcrumbs, Checkbox, FormControlLabel, FormGroup, Grid, Typography } from '@mui/material';
 import Link from 'next/link';
 
 export default function MercadoPagoTermos() {
   return (
     <Layout>
       <Grid container spacing={2}>
+        <Grid item lg={3}>
+          <MenuEsquerdo
+            urlBase="/mercado-pago"
+            menuItens={MENU_ITEMS.mercadoPago_integracao}
+          />
+        </Grid>
         <Grid container item lg alignContent={"flex-start"} spacing={2}>
           <Grid item xs={12}>
             <Breadcrumbs aria-label="breadcrumb">
@@ -19,16 +25,20 @@ export default function MercadoPagoTermos() {
               Termos e Condições de Uso do Mercado Pago
             </Typography>
             <Typography gutterBottom variant="h6">
-              Clicando no botão abaixo você concorda com os termos de uso do Mercado Pago. O termo de uso pode ser encontrado na página do Mercado Pago ou no link abaixo:
+              Clicando no botão abaixo você concorda com os termos de uso do
+              Mercado Pago. O termo de uso pode ser encontrado na página do
+              Mercado Pago ou no link abaixo:
             </Typography>
             <Typography gutterBottom variant="h6">
               <Link href="/">Termos e Condições de Uso do Mercado Pago</Link>
             </Typography>
             <Box mt={2}>
-            <Button size="large" variant='outlined' color='success'>
-              EU CONCORDO 
-              <Icon icon="akar-icons:check-box" />
-            </Button>
+              <FormGroup>
+                <FormControlLabel
+                  control={<Checkbox defaultChecked color="success" />}
+                  label=" EU CONCORDO"
+                />
+              </FormGroup>
             </Box>
           </Grid>
         </Grid>
@@ -36,4 +46,3 @@ export default function MercadoPagoTermos() {
     </Layout>
   );
 }
-
