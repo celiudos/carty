@@ -70,6 +70,13 @@ const MENU_ITEMS = {
       url: "/produtos-do-estoque",
     },
   ],
+  mercadoPago: [
+    {
+      icon: "arcticons:mercado-libre",
+      text: "Mercado Pago",
+      url: "/mercado-pago",
+    },
+  ],
   avaliacoes: [
     {
       icon: "ant-design:star",
