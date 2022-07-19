@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import { Icon } from '@iconify/react';
 import {
   Avatar,
@@ -91,21 +92,22 @@ export default function Navbar() {
               </Grid>
               <Grid item container spacing={2} xs={6} justifyContent="flex-end">
                 <Grid item>
-                  <Badge badgeContent={40} color="primary">
-                    <Link href="/pedidos" passHref>
-                      <IconButton title="Pedidos">
-                        <Icon icon={"humbleicons:user-asking"} height="24" />
-                      </IconButton>
-                    </Link>
-                  </Badge>
-                </Grid>
-                <Grid item>
                   <Link href="http://minhaloja.carty.com.br" passHref>
                     <IconButton title="Minha Loja">
                       <Icon icon={"bx:store-alt"} height="24" />
                     </IconButton>
                   </Link>
                 </Grid>
+                <Grid item>
+                  <BadgeCss badgeContent={40} color="primary">
+                    <Link href="/pedidos" passHref>
+                      <IconButton title="Pedidos">
+                        <Icon icon={"akar-icons:shopping-bag"} height="24" />
+                      </IconButton>
+                    </Link>
+                  </BadgeCss>
+                </Grid>
+
                 <Grid item>
                   <MenuUsuario />
                 </Grid>
@@ -161,6 +163,13 @@ export default function Navbar() {
     </>
   );
 }
+
+const BadgeCss = styled(Badge)`
+  > span {
+    top: 5px;
+    right: 5px;
+  }
+`;
 
 function MenuUsuario() {
   const settings = ["Profile", "Account", "Dashboard", "Logout"];
