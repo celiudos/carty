@@ -3,31 +3,31 @@ import MenuEsquerdo from '@components/menu/MenuEsquerdo';
 import MENU_ITEMS from '@components/menu/MenuItems';
 import { Breadcrumbs, FormControlLabel, FormGroup, Grid, Switch, Typography } from '@mui/material';
 
-export default function MercadoPago() {
+export default function MercadoPagoIntegracao() {
   return (
     <Layout>
       <Grid container spacing={2}>
         <Grid item lg={3}>
           <MenuEsquerdo
             urlBase="/mercado-pago"
-            menuItens={MENU_ITEMS.mercadoPago}
+            menuItens={MENU_ITEMS.mercadoPago_integracao}
           />
         </Grid>
         <Grid container item lg alignContent={"flex-start"} spacing={2}>
           <Grid item xs={12}>
             <Breadcrumbs aria-label="breadcrumb">
-              <Typography>Pagamento na Loja</Typography>
+              <Typography>Mercado Pago</Typography>
             </Breadcrumbs>
           </Grid>
           <Grid item xs={12}>
             <Typography gutterBottom variant="h2">
-              Pagamento na Loja
+              Integração Mercado Pago
             </Typography>
             <Typography gutterBottom variant="h6">
-              O pagamento na loja é um recurso que mantém o consumidor no
-              próprio site da loja ao longo de todo o processo de conclusão do
-              pedido. ele agiliza o processo, reduz o número de etapas
-              necessária e facilita o pagamento.
+              A integração do Mercado Pago permite que você possa oferecer uma
+              opção de pagamento totalmente no seu site. Toda a experiência
+              acontece na sua loja para que os clientes não tenham que sair no
+              momento de realizar a compra.
             </Typography>
             <FormGroup>
               <FormControlLabel control={<Switch />} label="Ativado" />

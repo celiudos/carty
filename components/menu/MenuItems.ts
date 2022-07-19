@@ -77,6 +77,23 @@ const MENU_ITEMS = {
       url: "/mercado-pago",
     },
   ],
+  mercadoPago_integracao: [
+    {
+      icon: "akar-icons:key",
+      text: "Credenciais",
+      url: "/credenciais",
+    },
+    {
+      icon: "bi:currency-dollar",
+      text: "Taxas",
+      url: "/taxas",
+    },
+    {
+      icon: "bx:like",
+      text: "Termos de uso",
+      url: "/Termos de uso",
+    },
+  ],
   avaliacoes: [
     {
       icon: "ant-design:star",
