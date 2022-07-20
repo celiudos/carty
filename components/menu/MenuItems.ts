@@ -82,6 +82,28 @@ const MENU_ITEMS = {
       url: "/integracao-mercado-pago",
     },
   ],
+  divulgacao: [
+    {
+      icon: "ic:twotone-discount",
+      text: "Meus Cupons",
+      url: "/meus-cupons",
+    },
+    {
+      icon: "ic:outline-discount",
+      text: "Criar Cupom",
+      url: "/criar-cupom",
+    },
+    {
+      icon: "arcticons:qr",
+      text: "QR Code",
+      url: "/qr-code",
+    },
+    {
+      icon: "akar-icons:location",
+      text: "Compartilhar Endereço",
+      url: "/compartilhar-endereco",
+    },    
+  ],
   mercadoPago_integracao: [
     {
       icon: "akar-icons:key",
