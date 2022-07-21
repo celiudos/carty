@@ -163,6 +163,11 @@ const MENU_ITEMS = {
   ],
   categorias: [
     {
+      icon: "fa-solid:layer-group",
+      text: "Agrupar",
+      url: "/agrupar",
+    },
+    {
       icon: "bx:photo-album",
       text: "Foto da Categoria",
       url: "/foto",
