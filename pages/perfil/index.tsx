@@ -1,7 +1,7 @@
 import Layout from '@components/layout/Layout';
 import MenuEsquerdo from '@components/menu/MenuEsquerdo';
 import MENU_ITEMS from '@components/menu/MenuItems';
-import { Avatar, Breadcrumbs, FormControlLabel, FormGroup, Grid, Switch, Typography } from '@mui/material';
+import { Avatar, Grid, Typography } from '@mui/material';
 
 export default function Perfil() {
   return (
