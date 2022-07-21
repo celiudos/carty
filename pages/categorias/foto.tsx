@@ -1,10 +1,10 @@
-import FormCategoriaRenomear from "@components/forms/FormCategoriaRenomear";
+import FormCategoriaFoto from "@components/forms/FormCategoriaFoto";
 import Layout from "@components/layout/Layout";
 import MenuEsquerdo from '@components/menu/MenuEsquerdo';
 import MENU_ITEMS from '@components/menu/MenuItems';
 import { Grid } from "@mui/material";
 
-export default function CategoriasAlterar() {
+export default function CategoriasFoto() {
   return (
     <Layout>
       <Grid container spacing={2}>
@@ -19,7 +19,7 @@ export default function CategoriasAlterar() {
           <Grid item xs={12}>
           </Grid>
           <Grid item xs={12}>
-            <FormCategoriaRenomear />
+            <FormCategoriaFoto />
           </Grid>
         </Grid>
       </Grid>

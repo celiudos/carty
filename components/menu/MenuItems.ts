@@ -165,7 +165,7 @@ const MENU_ITEMS = {
     {
       icon: "bx:photo-album",
       text: "Foto da Categoria",
-      url: "/foto-da-categoria",
+      url: "/foto",
     },
     {
       icon: "ant-design:plus-circle-outlined",
