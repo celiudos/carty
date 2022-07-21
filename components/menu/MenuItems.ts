@@ -161,6 +161,28 @@ const MENU_ITEMS = {
       url: "/endereco-da-loja",
     },
   ],
+  categorias: [
+    {
+      icon: "bx:photo-album",
+      text: "Foto da Categoria",
+      url: "/foto-da-categoria",
+    },
+    {
+      icon: "ant-design:plus-circle-outlined",
+      text: "Incluir/Excluir Produto",
+      url: "/incluir-excluir-produto",
+    },
+    {
+      icon: "akar-icons:edit",
+      text: "Renomear",
+      url: "/renomear",
+    },
+    {
+      icon: "ant-design:delete-outlined",
+      text: "Excluir",
+      url: "/excluir",
+    },
+  ]
 };
 
 export default MENU_ITEMS;
