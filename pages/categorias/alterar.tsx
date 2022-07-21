@@ -17,8 +17,6 @@ export default function CategoriasAlterar() {
 
         <Grid container item lg alignContent={"flex-start"} spacing={2}>
           <Grid item xs={12}>
-          </Grid>
-          <Grid item xs={12}>
             <FormCategoriaRenomear />
           </Grid>
         </Grid>

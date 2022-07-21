@@ -1,3 +1,4 @@
+import ButtonLinkNext from "@components/buttons/ButtonLinkNext";
 import FormCategoriaRenomear from "@components/forms/FormCategoriaRenomear";
 import Layout from "@components/layout/Layout";
 import MenuEsquerdo from '@components/menu/MenuEsquerdo';
@@ -27,9 +28,13 @@ export default function CategoriasAgrupar() {
           </Typography>
         </Grid>
           <Grid item>
-            <Button variant="contained" color="secondary">
+            <ButtonLinkNext
+              href="/categorias/agrupar-nome"
+              variant="contained"
+              color="primary"
+            >
               Agrupar
-            </Button>
+            </ButtonLinkNext>
           </Grid>
         </Grid>
       </Grid>
