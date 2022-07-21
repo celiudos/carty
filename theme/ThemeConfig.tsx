@@ -1,13 +1,9 @@
 // material
-import { CssBaseline, ThemeOptions } from "@mui/material";
-import {
-  createTheme,
-  StyledEngineProvider,
-  ThemeProvider,
-} from "@mui/material/styles";
-import { TypographyOptions } from "@mui/material/styles/createTypography";
+import { CssBaseline, ThemeOptions } from '@mui/material';
+import { createTheme, StyledEngineProvider, ThemeProvider } from '@mui/material/styles';
+import { TypographyOptions } from '@mui/material/styles/createTypography';
 
-import ThemeTypography from "./ThemeTypography";
+import ThemeTypography from './ThemeTypography';
 
 // ----------------------------------------------------------------------
 
@@ -57,6 +53,7 @@ export const themeOptions: ThemeOptions = {
     MuiOutlinedInput: {
       styleOverrides: {
         root: {
+          color: "#000",
           backgroundColor: "#eee",
           borderColor: "#eee",
           borderRadius: 0,

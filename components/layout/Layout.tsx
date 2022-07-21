@@ -1,6 +1,6 @@
-import Navbar from "@components/layout/Navbar";
-import styled from "@emotion/styled";
-import { Box, Container } from "@mui/material";
+import Navbar from '@components/layout/Navbar';
+import styled from '@emotion/styled';
+import { Box, Container } from '@mui/material';
 
 type Props = {
   children: JSX.Element;
@@ -16,7 +16,7 @@ export default function Layout({ children }: Props) {
       </HeaderCss>
       <Container maxWidth="lg" id="content">
         <CorpoCss>
-          <Box p={2}>{children}</Box>
+          <Box p={3}>{children}</Box>
         </CorpoCss>
       </Container>
     </MainCss>

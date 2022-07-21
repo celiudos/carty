@@ -1,13 +1,14 @@
-import { CacheProvider, EmotionCache } from "@emotion/react";
-import { useStore } from "@store/storeConfig";
-import createEmotionCache from "@theme/createEmotionCache";
-import ThemeConfig from "@theme/ThemeConfig";
-import "animate.css/animate.min.css";
-import type { AppProps } from "next/app";
-import Head from "next/head";
-import { SnackbarProvider } from "notistack";
-import { Provider } from "react-redux";
+import 'animate.css/animate.min.css';
 
+import { CacheProvider, EmotionCache } from '@emotion/react';
+import { useStore } from '@store/storeConfig';
+import createEmotionCache from '@theme/createEmotionCache';
+import ThemeConfig from '@theme/ThemeConfig';
+import Head from 'next/head';
+import { SnackbarProvider } from 'notistack';
+import { Provider } from 'react-redux';
+
+import type { AppProps } from "next/app";
 require("@styles/index.css");
 
 // Client-side cache, shared for the whole session of the user in the browser.
@@ -24,6 +25,7 @@ export default function MyApp(props: MyAppProps) {
   return (
     <CacheProvider value={emotionCache}>
       <Head>
+        <title>Carty - Loja Virtual, Catálogo de Produtos, Vendas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <ThemeConfig>

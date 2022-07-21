@@ -1,5 +1,4 @@
-import { Icon } from '@iconify/react';
-import { Box, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import { Box } from '@mui/material';
 import Link from 'next/link';
 
 interface IIconLink {
@@ -8,34 +7,35 @@ interface IIconLink {
   iconName: string;
 }
 
-export default function IconLink({ href, text, iconName }: IIconLink) {
+export default function IconLink({ href }: IIconLink) {
   return (
-    <>
-      <Box
-        sx={{
-          display: "flex",
-        }}
-      >
-        <List>
-          <ListItem disablePadding>
-            <Link href={href || ""} passHref>
-              <ListItemButton component="a">
-                <ListItemIcon>
-                  <Icon icon={iconName} />
-                </ListItemIcon>
-                <ListItemText primary={text} />
-                <ListItemIcon>
-                  <Icon
-                    style={{ marginLeft: "auto" }}
-                    icon="akar-icons:chevron-right"
-                  />
-                </ListItemIcon>
-              </ListItemButton>
-            </Link>
-          </ListItem>
-          <Divider />
-        </List>
+    <Link href={href || ""} passHref>
+      <Box>
+        {/* <List>
+          {item
+            ? item.map((item, key) => (
+                <ListItemButton divider>
+                  <ListItemIcon>
+                    <Icon icon={item.iconName} />
+                  </ListItemIcon>
+                  <ListItemText primary={text} />
+                  <Icon icon={icon} />
+                </ListItemButton>
+              ))
+            : null}
+        </List> */}
       </Box>
-    </>
+    </Link>
   );
 }
+
+// const list = [
+//   {
+//     text: "Cadastrar",
+//     href: "/cadastrar",
+//     iconName: "mdi:plus"
+
+//   }
+// ]
+
+// <IconLink list={list} />;

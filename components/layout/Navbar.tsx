@@ -1,4 +1,5 @@
-import { Icon } from "@iconify/react";
+import styled from '@emotion/styled';
+import { Icon } from '@iconify/react';
 import {
   Avatar,
   Badge,
@@ -10,19 +11,18 @@ import {
   Menu,
   MenuItem,
   MenuList,
-  Stack,
   Tab,
   Tabs,
   Tooltip,
   Typography,
-} from "@mui/material";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import LogoImg from "@public/img/logo-fina.png";
-import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { useState } from "react";
+} from '@mui/material';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import LogoImg from '@public/img/logo-fina.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 function a11yProps(index: number) {
   return {
@@ -32,24 +32,13 @@ function a11yProps(index: number) {
 }
 
 const MENU = [
-  { label: "Produtos", badgeCount: 0, icon: "bi:box", href: "/" },
+  { label: "Home", badgeCount: 0, icon: "bi:house", href: "/" },
+  { label: "Produtos", badgeCount: 0, icon: "bi:box", href: "/produtos" },
   {
     label: "Categorias",
     badgeCount: 0,
-    icon: "bx:store-alt",
+    icon: "bx:label",
     href: "/categorias",
-  },
-  {
-    label: "Pedidos",
-    badgeCount: 50,
-    icon: "akar-icons:arrow-shuffle",
-    href: "/pedidos",
-  },
-  {
-    label: "Minha Loja",
-    badgeCount: 0,
-    icon: "bi:bag-check",
-    href: "/minha-loja",
   },
   {
     label: "Divulgação",
@@ -57,18 +46,12 @@ const MENU = [
     icon: "ant-design:share-alt-outlined",
     href: "/divulgacao",
   },
-  {
-    label: "Configurar",
-    badgeCount: 0,
-    icon: "icon-park-outline:config",
-    href: "/configurar",
-  },
-  {
-    label: "Estoque",
-    badgeCount: 0,
-    icon: "akar-icons:shipping-box-v2",
-    href: "/estoque",
-  },
+  // {
+  //   label: "Estoque",
+  //   badgeCount: 0,
+  //   icon: "akar-icons:shipping-box-v2",
+  //   href: "/estoque",
+  // },
   { label: "Entregas", badgeCount: 0, icon: "bi:truck", href: "/entregas" },
   {
     label: "Avaliações",
@@ -76,12 +59,21 @@ const MENU = [
     icon: "akar-icons:star",
     href: "/avaliacoes",
   },
+  {
+    label: "Configurar",
+    badgeCount: 0,
+    icon: "icon-park-outline:config",
+    href: "/configurar",
+  },
 ];
 
 export default function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const router = useRouter();
-  const paginaAtual = MENU.find((item) => item.href === router.pathname) || {
+
+  const paginaAtual = MENU.slice(1).find((item) =>
+    router.pathname.startsWith(item.href)
+  ) || {
     href: "/",
   };
 
@@ -94,17 +86,31 @@ export default function Navbar() {
       <AppBar position="static" elevation={0} component={"div"}>
         <Toolbar>
           <Grid container mt={3}>
-            <Grid
-              item
-              container
-              alignItems={"center"}
-              justifyContent="space-between"
-            >
-              <Grid item>
+            <Grid item container alignItems={"center"}>
+              <Grid item xs={6}>
                 <Image src={LogoImg} width={80} height={40} alt="Logo" />
               </Grid>
-              <Grid item>
-                <MenuUsuario />
+              <Grid item container spacing={2} xs={6} justifyContent="flex-end">
+                <Grid item>
+                  <Link href="http://minhaloja.carty.com.br" passHref>
+                    <IconButton title="Minha Loja">
+                      <Icon icon={"bx:store-alt"} height="24" />
+                    </IconButton>
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <BadgeCss badgeContent={40} color="primary">
+                    <Link href="/pedidos" passHref>
+                      <IconButton title="Pedidos">
+                        <Icon icon={"akar-icons:shopping-bag"} height="24" />
+                      </IconButton>
+                    </Link>
+                  </BadgeCss>
+                </Grid>
+
+                <Grid item>
+                  <MenuUsuario />
+                </Grid>
               </Grid>
             </Grid>
             <Grid
@@ -157,6 +163,13 @@ export default function Navbar() {
     </>
   );
 }
+
+const BadgeCss = styled(Badge)`
+  > span {
+    top: 5px;
+    right: 5px;
+  }
+`;
 
 function MenuUsuario() {
   const settings = ["Profile", "Account", "Dashboard", "Logout"];
