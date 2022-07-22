@@ -161,6 +161,48 @@ const MENU_ITEMS = {
       url: "/endereco-da-loja",
     },
   ],
+  perfil: [
+    {
+      icon: "mdi:account-outline",
+      text: "Perfil",
+      url: "/perfil",
+    },
+    {
+      icon: "ant-design:mail-outlined",
+      text: "Email",
+      url: "/Email",
+    },
+    {
+      icon: "ic:outline-workspace-premium",
+      text: "Planos e Preços",
+      url: "/planos-e-precos",
+    },
+    {
+      icon: "wpf:password1",
+      text: "Mudar Senha",
+      url: "/mudar-senha",
+    },
+    {
+      icon: "bx:support",
+      text: "Suporte Técnico",
+      url: "/suporte-tecnico",
+    },
+    {
+      icon: "ic:outline-privacy-tip",
+      text: "Termos de Uso e Privacidade",
+      url: "/termos-de-uso-e-privacidade",
+    },
+    {
+      icon: "ant-design:delete-outlined",
+      text: "Excluir Conta",
+      url: "/excluir-conta",
+    },
+    {
+      icon: "ic:outline-cancel",
+      text: "Cancelar Assinatura",
+      url: "/cancelar-assinatura",
+    },    
+  ]
 };
 
 export default MENU_ITEMS;
