@@ -1,5 +1,6 @@
 interface IListaCuponsItems {
-  icon: string;
+  number: string;
   text: string;
+  date: string;
   url: string;
 }
